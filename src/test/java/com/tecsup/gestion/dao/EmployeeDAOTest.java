@@ -43,7 +43,7 @@ public class EmployeeDAOTest {
 	public  void before() {
 		logger.info("Antes de cada metodo");
 	}
-	
+	/*
 	@Test
 	public void testFindEmployeeById() {
 
@@ -67,8 +67,8 @@ public class EmployeeDAOTest {
 			fail(e.getMessage());
 		}
 
-	}
-
+	}*/
+/*
 	@Test
 	public void testFindAllEmployees() {
 
@@ -87,7 +87,7 @@ public class EmployeeDAOTest {
 		}
 
 		
-	}
+	}*/
 
 	@Test
 	public void testFindEmployeeByLogin() {
@@ -110,7 +110,7 @@ public class EmployeeDAOTest {
 		}
 
 	}
-
+/*
 	@Test
 	public void testCreateEmployee() {
 
@@ -142,10 +142,10 @@ public class EmployeeDAOTest {
 			fail(e.getMessage());
 		}
 
-	}
+	}*/
 
 	
-	
+	/*
 	@Test
 	public void testUpdateEmployee() {
 
@@ -181,9 +181,9 @@ public class EmployeeDAOTest {
 			fail(e.getMessage());
 		}
 
-	}
+	}*/
 	
-	
+	/*
 	@Test
 	public void testDeleteEmployee() {
 
@@ -216,7 +216,7 @@ public class EmployeeDAOTest {
 			return;
 		}
 
-	}
+	}*/
 	
 	@After
 	public void after() {
