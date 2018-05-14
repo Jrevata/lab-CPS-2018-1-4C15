@@ -22,15 +22,18 @@ import com.tecsup.gestion.exception.DAOException;
 import com.tecsup.gestion.exception.EmptyResultException;
 import com.tecsup.gestion.model.Employee;
 
-@RunWith(SpringJUnit4ClassRunner.class)
+/*@RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration("file:src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml")
-@WebAppConfiguration
+@WebAppConfiguration*/
 public class EmployeeDAOTest {
 
 	private static final Logger logger = LoggerFactory.getLogger(EmployeeDAOTest.class);
 
 	@Autowired
 	private EmployeeDAO employeeDAO;
+	
+	@Autowired
+	private DeparmentDAO deparmentDAO;
 
 	
 	@BeforeClass
@@ -89,6 +92,10 @@ public class EmployeeDAOTest {
 		
 	}*/
 
+	
+	
+	
+	/*
 	@Test
 	public void testFindEmployeeByLogin() {
 
@@ -109,7 +116,7 @@ public class EmployeeDAOTest {
 			fail(e.getMessage());
 		}
 
-	}
+	}*/
 /*
 	@Test
 	public void testCreateEmployee() {

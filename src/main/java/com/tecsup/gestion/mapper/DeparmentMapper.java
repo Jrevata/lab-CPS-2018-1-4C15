@@ -13,10 +13,10 @@ public class DeparmentMapper implements RowMapper<Deparment> {
 	public Deparment mapRow(ResultSet rs, int row) throws SQLException{
 		Deparment depa = new Deparment();
 		
-		depa.setDeparement_id(rs.getInt("deparment_id"));
+		depa.setDeparement_id(rs.getInt("department_id"));
 		depa.setName(rs.getString("name"));
 		depa.setDescription(rs.getString("description"));
-		depa.setName(rs.getString("city"));
+		depa.setCity(rs.getString("city"));
 		
 		return depa;
 		

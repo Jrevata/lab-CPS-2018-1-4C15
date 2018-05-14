@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="com.tecsup.gestion.dao.EmployeeDAOTest" time="0.718" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="com.tecsup.gestion.dao.EmployeeDAOTest" time="0" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_112\jre\bin"/>
@@ -27,7 +27,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\USER\SpringProjects\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8485703940611230423.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\USER\SpringProjects\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7792127897487712605.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_112\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_112/bin/server;C:/Program Files/Java/jre1.8.0_112/bin;C:/Program Files/Java/jre1.8.0_112/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files (x86)\Brackets\command;C:\NodeJs\;C:\wamp\bin\php\php7.0.4;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Git\cmd;C:\RailsInstaller\Git\cmd;C:\RailsInstaller\Ruby2.3.3\bin;C:\Users\USER\AppData\Roaming\npm;C:\Program Files\Microsoft VS Code\bin;C:\Users\USER\AppData\Roaming\Composer\vendor\bin;H:\sts-bundle\sts-3.9.0.RELEASE;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -61,5 +61,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.tecsup.gestion.dao.EmployeeDAOTest" name="testFindEmployeeByLogin" time="0.718"/>
+  <testcase classname="com.tecsup.gestion.dao.EmployeeDAOTest" name="testFindEmployeeByLogin" time="0"/>
 </testsuite>
